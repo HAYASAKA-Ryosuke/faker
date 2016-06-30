@@ -15,13 +15,13 @@ class Provider(PersonProvider):
     formats = formats_male + formats_female
 
     first_names_female = (
-        '明美', 'あすか', '香織', '加奈', 'くみ子', 'さゆり', '知実', '千代',
-        '直子', '七夏', '花子', '春香', '真綾', '舞', '美加子', '幹', '桃子', '結衣', '裕美子', '陽子', '里佳',
+        'あきら', '明美', 'あすか', '香織', '加奈', 'くみ子', 'さゆり', '千代', '翼', '知実',
+        '直子', '七夏', '花子', '春香', '真綾', '舞', '幹', '桃子', '結衣', '陽子', '裕美子', '零', '里佳',
     )
 
     first_names_male = (
-        '晃', '篤司', '治', '和也', '京助', '健一', '修平', '翔太', '淳', '聡太郎', '太一', '太郎', '拓真', '翼', '智也',
-        '直樹', '直人', '英樹', '浩', '学', '充', '稔', '裕樹', '裕太', '康弘', '陽一', '洋介', '亮介', '涼平', '零',
+        '晃', '篤司', '治', '京助', '健一', '淳', '聡太郎', '太一', '拓真', '太郎', '翼', '智也',
+        '直樹', '直人', '英樹', '浩', '学', '充', '稔', '裕樹', '裕太', '康弘', '陽一', '洋介', '亮介', '涼平',
     )
 
     first_names = first_names_male + first_names_female
@@ -70,10 +70,10 @@ class Provider(PersonProvider):
     first_kana_names = first_kana_names_male + first_kana_names_female
 
     last_kana_names = (
-        'アオタ', 'アオヤマ', 'イシダ', 'イダカ', 'イトウ', 'ウノ', 'エコダ', 'オオガキ',
-        'カノウ', 'カノウ', 'キジマ', 'キムラ', 'キリヤマ', 'クドウ', 'コイズミ', 'コバヤシ', 'コンドウ',
+        'アオタ', 'アオヤマ', 'イシダ', 'イダカ', 'イトウ', 'イノウエ', 'ウノ', 'エコダ', 'オオガキ',
+        'カトウ', 'カノウ', 'キジマ', 'キムラ', 'キリヤマ', 'クドウ', 'コイズミ', 'コバヤシ', 'コンドウ',
         'サイトウ', 'サカモト', 'ササキ', 'サトウ', 'ササダ', 'スズキ', 'スギヤマ',
-        'タカハシ', 'タナカ', 'タナベ', 'ツダ', 'ツチヤ',
+        'タカハシ', 'タナカ', 'タナベ', 'ツダ',
         'ナカジマ', 'ナカムラ', 'ナギサ', 'ナカツガワ', 'ニシノソノ', 'ノムラ',
         'ハラダ', 'ハマダ', 'ヒロカワ', 'フジモト',
         'マツモト', 'ミヤケ', 'ミヤザワ', 'ムラヤマ',
@@ -113,7 +113,7 @@ class Provider(PersonProvider):
     first_romanized_names = first_romanized_names_male + first_romanized_names_female
 
     last_romanized_names = (
-        'Aota', 'Aoyama', 'Ishida', 'Idaka', 'Ito', 'Uno', 'Ekoda', 'Ogaki',
+        'Aota', 'Aoyama', 'Ishida', 'Idaka', 'Ito', 'Inoue', 'Uno', 'Ekoda', 'Ogaki',
         'Kato', 'Kano', 'Kijima', 'Kimura', 'Kiriyama', 'Kudo', 'Koizumi', 'Kobayashi', 'Kondo',
         'Saito', 'Sakamoto', 'Sasaki', 'Sato', 'Sasada', 'Suzuki', 'Sugiyama',
         'Takahashi', 'Tanaka', 'Tanabe', 'Tsuda', 'Tsuchiya',
